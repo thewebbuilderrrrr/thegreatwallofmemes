@@ -1,9 +1,5 @@
 console.log("Website loaded!");
 
-const counter = new CounterAPI();
-
-document.addEventListener("DOMContentLoaded", () => {
-
     document.getElementById("submitComment").addEventListener("click", function () {
         const commentText = document.getElementById("commentInput").value;
 
@@ -16,9 +12,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
         document.getElementById("commentInput").value = "";
     });
-
-    counter.get('thewallofmemes').then(value => {
-        console.log(value);
-    });
-
-});

@@ -1,4 +1,5 @@
 console.log("Website loaded!");
+
 document.getElementById("submitComment").addEventListener("click", function () {
     const commentText = document.getElementById("commentInput").value;
 
@@ -11,5 +12,7 @@ document.getElementById("submitComment").addEventListener("click", function () {
 
     document.getElementById("commentInput").value = "";
 });
+
 counter.get('thewallofmemes').then(value => {
     console.log(value);
+});

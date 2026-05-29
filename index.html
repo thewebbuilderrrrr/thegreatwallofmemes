@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <div id="counterDisplay">Loading...</div>
   <h1>WELCOME TO THE WALL OF MEMES</h1>
 <h2>BRO LOOK AT THESE MEMES</h2>
 <p><strong>disclaimer:</strong> this webside does not own most of these Memes the memes that we do own has the website name as a watermark</p>
@@ -69,6 +70,18 @@
 <div id="commentsSection"></div>
 <a href="https://trending.knowyourmeme.com/editorials/collections/150-funniest-memes-from-the-last-month">150+ Funniest Memes From The Last Month
 </a>
+<script>
+fetch("https://visitor-counter-backend-ilcp.onrender.com/counter")
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("counterDisplay").textContent =
+      "Visitors: " + data.count;
+  })
+  .catch(() => {
+    document.getElementById("counterDisplay").textContent =
+      "Error loading counter";
+  });
+</script>
 
 <!-- Link your external JS file -->
 <script src="script.js"></script>

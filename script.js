@@ -1,5 +1,7 @@
 console.log("Website loaded!");
 
+const counter = new CounterAPI();
+
 document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("submitComment").addEventListener("click", function () {

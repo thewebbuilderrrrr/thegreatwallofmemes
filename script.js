@@ -1,18 +1,22 @@
 console.log("Website loaded!");
 
-document.getElementById("submitComment").addEventListener("click", function () {
-    const commentText = document.getElementById("commentInput").value;
+document.addEventListener("DOMContentLoaded", () => {
 
-    if (commentText.trim() === "") return;
+    document.getElementById("submitComment").addEventListener("click", function () {
+        const commentText = document.getElementById("commentInput").value;
 
-    const newComment = document.createElement("p");
-    newComment.textContent = commentText;
+        if (commentText.trim() === "") return;
 
-    document.getElementById("commentsSection").appendChild(newComment);
+        const newComment = document.createElement("p");
+        newComment.textContent = commentText;
 
-    document.getElementById("commentInput").value = "";
-});
+        document.getElementById("commentsSection").appendChild(newComment);
 
-counter.get('thewallofmemes').then(value => {
-    console.log(value);
+        document.getElementById("commentInput").value = "";
+    });
+
+    counter.get('thewallofmemes').then(value => {
+        console.log(value);
+    });
+
 });

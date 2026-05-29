@@ -11,3 +11,5 @@ document.getElementById("submitComment").addEventListener("click", function () {
 
     document.getElementById("commentInput").value = "";
 });
+counter.get('thewallofmemes').then(value => {
+    console.log(value);

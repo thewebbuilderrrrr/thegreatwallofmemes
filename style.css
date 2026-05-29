@@ -69,3 +69,16 @@ body {
     color: black;
 }
 
+#counterDisplay {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #d40000;          /* red button */
+  color: #00c8ff;               /* neon blue text */
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 12px;          /* rounded corners */
+  text-shadow: 0 0 8px #00c8ff; /* neon glow */
+  box-shadow: 0 0 12px #d40000; /* red outer glow */
+  margin: 20px auto;
+  text-align: center;
+}

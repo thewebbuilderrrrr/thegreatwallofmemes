@@ -1,29 +1,22 @@
-body {
-  background: #111;
-  color: white;
-  font-family: Arial;
-  text-align: center;
-  padding-top: 50px;
-}body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #111;
-    color: white;
-    text-align: center;
+html, body {
+  height: 100%;
+  margin: 0;
 }
+
 body {
-  background: #111;
+  background-image: url("https://copilot.microsoft.com/th/id/BCO.924711ce-c30a-46e8-b870-6be19506f15c.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  /* keep your original styling */
   color: white;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 50px;
-}body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #111;
-    color: white;
-    text-align: center;
-}.gallery img {
+}
+.gallery img {
     width: 100%;
     border-radius: 10px;
     border: 3px solid #ff0066;

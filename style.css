@@ -5,17 +5,16 @@ html, body {
 
 body {
   background-image: url("https://copilot.microsoft.com/th/id/BCO.924711ce-c30a-46e8-b870-6be19506f15c.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-repeat: repeat;          /* tile the wallpaper */
+  background-size: 300px 300px;       /* shrink the image */
+  background-position: top left;
 
-  /* keep your original styling */
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 50px;
 }
+
 .gallery img {
     width: 100%;
     border-radius: 10px;

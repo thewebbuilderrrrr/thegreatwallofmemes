@@ -3,17 +3,24 @@ html, body {
   margin: 0;
 }
 
+/* Page background = red */
 body {
-  background-image: url("https://copilot.microsoft.com/th/id/BCO.924711ce-c30a-46e8-b870-6be19506f15c.png");
-  background-repeat: repeat;          /* tile the wallpaper */
-  background-size: 150px 150px;       /* shrink the image */
-  background-position: top left;
-
+  background: red;
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 50px;
 }
+
+/* Meme wallpaper only inside the memes section */
+#memes {
+  background-image: url("https://copilot.microsoft.com/th/id/BCO.924711ce-c30a-46e8-b870-6be19506f15c.png");
+  background-repeat: repeat;
+  background-size: 150px 150px; /* adjust size here */
+  background-position: top left;
+  padding: 20px; /* gives space so wallpaper shows around images */
+}
+
 
 .gallery img {
     width: 100%;

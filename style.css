@@ -6,7 +6,7 @@ html, body {
 body {
   background-image: url("https://copilot.microsoft.com/th/id/BCO.924711ce-c30a-46e8-b870-6be19506f15c.png");
   background-repeat: repeat;          /* tile the wallpaper */
-  background-size: 300px 300px;       /* shrink the image */
+  background-size: 150px 150px;       /* shrink the image */
   background-position: top left;
 
   color: white;

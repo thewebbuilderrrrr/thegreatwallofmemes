@@ -89,3 +89,6 @@ body {
   text-align: center;
   animation: pulseGlow 1.5s infinite ease-in-out;
 }
+#memes {
+background-image: url("https://copilot.microsoft.com/th/id/BCO.924711ce-c30a-46e8-b870-6be19506f15c.png"); 
+background-position: center; }

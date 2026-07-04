@@ -76,7 +76,7 @@ body {
 }
 .top-message {
   background-color: red;
-  padding: 5px 5px;
-  margin: 5px 5px;
-  border-radius: 6px;
+  padding: 10px;      /* clean spacing inside */
+  margin: 0 auto;     /* centers if width is set */
+  border-radius: 10px;
 }

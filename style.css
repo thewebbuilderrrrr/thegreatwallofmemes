@@ -71,5 +71,11 @@ body {
 #submitComment {
   margin-top: 5px;
   padding: 6px 12px;
+  border-radius: 5px;
   cursor: pointer;
+}
+.top-message {
+  padding: 5px 5px;
+  margin: 5px 5px;
+  border-radius: 6px;
 }

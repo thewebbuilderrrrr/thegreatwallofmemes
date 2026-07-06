@@ -21,7 +21,7 @@ body {
   background-position: top left;
   padding: 20px;
 }
-#memes img {
+#memes:hover img {
   transform: scale(0.5);
 }
 

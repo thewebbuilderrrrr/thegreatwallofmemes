@@ -21,6 +21,9 @@ body {
   background-position: top left;
   padding: 20px;
 }
+#memes img {
+  transform: scale(0.5);
+}
 
 /* --- Gallery image styling --- */
 .gallery img {

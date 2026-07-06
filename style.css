@@ -21,8 +21,14 @@ body {
   background-position: top left;
   padding: 20px;
 }
-#memes:hover img {
-  transform: scale(0.5);
+
+#memes img {
+  transition: transform 0.25s ease;
+}
+}
+
+#memes img:hover {
+  transform: scale(1.3);
 }
 
 /* --- Gallery image styling --- */

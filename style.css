@@ -16,9 +16,6 @@ body {
 /* --- Meme section wallpaper --- */
 #memes {
   background-color: gray;
-  background-repeat: repeat;
-  background-size: 1500px 1500px;
-  background-position: top left;
   padding: 20px;
 }
 

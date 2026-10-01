@@ -6,7 +6,7 @@ html, body {
 
 /* --- Page background + base styling --- */
 body {
-  background: darkblue;
+  background: navyblue;
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -15,7 +15,7 @@ body {
 
 /* --- Meme section wallpaper --- */
 #memes {
-  background-image: url("https://copilot.microsoft.com/th/id/BCO.924711ce-c30a-46e8-b870-6be19506f15c.png");
+  background-color: gray;
   background-repeat: repeat;
   background-size: 1500px 1500px;
   background-position: top left;

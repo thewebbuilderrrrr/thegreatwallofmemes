@@ -6,8 +6,7 @@ html, body {
 
 /* --- Page background + base styling --- */
 body {
-  background: navyblue;
-  color: white;
+  background-color: navyblue;
   font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 50px;

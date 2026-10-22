@@ -6,7 +6,7 @@ html, body {
 
 /* --- Page background + base styling --- */
 body {
-  background-color: darkblue;
+  background-color: skyblue;
   font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 50px;
@@ -16,6 +16,8 @@ body {
 #memes {
   background-color: gray;
   padding: 20px;
+  border-radius: 16px;
+  overflow: hidden
 }
 
 /* --- Gallery image styling --- */

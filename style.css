@@ -19,6 +19,8 @@ body {
   border-radius: 16px;
   overflow: hidden;
   border: 2px solid gold;
+  width: 1250px;
+  margin: 0 auto
 }
 
 /* --- Gallery image styling --- */
@@ -73,3 +75,9 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+#memes, img {
+  border: 2px solid gold;
+  display: block ;
+  margin: 0 auto;
+  margin-bottom: 16px;

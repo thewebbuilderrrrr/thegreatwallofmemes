@@ -1,4 +1,3 @@
-/* --- Global layout --- */
 html, body {
   height: 100%;
   margin: 0;
@@ -19,25 +18,14 @@ body {
   border-radius: 16px;
   overflow: hidden;
   border: 2px solid gold;
-  width: 1250px;
-  margin: 0 auto
-}
-
-/* --- Gallery image styling --- */
-.gallery img {
+  max-width: 1750px;
   width: 100%;
-  border-radius: 10px;
-  border: 3px solid #ff0066;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
 }
-
-.gallery img:hover {
-  transform: scale(1.08);
-  box-shadow: 0 0 25px #ff0066;
-  filter: brightness(1.15);
-}
-
-/* --- Meme watermark overlay --- */
 .meme {
   position: relative;
   display: inline-block;
@@ -66,7 +54,11 @@ body {
   padding: 10px;
   border-radius: 6px;
   margin-top: 10px;
-  width: 400px;
+  max-width: 400px; /* FIXED: Prevents overflowing on small mobile screens */
+  width: 100%;
+  margin-left: auto; /* Centers the comment bubbles */
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 #submitComment {
@@ -76,8 +68,12 @@ body {
   cursor: pointer;
 }
 
-#memes, img {
+img {
   border: 2px solid gold;
-  display: block ;
-  margin: 0 auto;
   margin-bottom: 16px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 100%;
+}
+
